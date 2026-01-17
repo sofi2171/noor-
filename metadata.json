@@ -1,0 +1,7 @@
+{
+  "name": "Noor Islamic Hub",
+  "description": "A comprehensive, professional Islamic web suite featuring Prayer Times, Quranic insights, Hadith explorer powered by Gemini AI, Zakat calculator, and an AI Scholar chat.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
