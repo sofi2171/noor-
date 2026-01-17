@@ -3,7 +3,12 @@
   "name": "noor-islamic-hub",
   "version": "1.0.0",
   "description": "A professional Islamic web suite powered by Cloudflare.",
-  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@google/genai": "^1.37.0",
     "lucide-react": "^0.562.0",
@@ -11,12 +16,11 @@
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240101.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2",
+    "typescript": "^5.5.4",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "typescript": "^5.0.0"
-  },
-  "scripts": {
-    "build": "tsc"
+    "@cloudflare/workers-types": "^4.20240101.0"
   }
 }

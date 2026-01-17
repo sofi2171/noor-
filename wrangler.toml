@@ -1,6 +1,6 @@
 
 name = "noor-islamic-hub"
-pages_build_output_dir = "."
+pages_build_output_dir = "dist"
 
 [vars]
 # API_KEY should be set in Cloudflare Dashboard
